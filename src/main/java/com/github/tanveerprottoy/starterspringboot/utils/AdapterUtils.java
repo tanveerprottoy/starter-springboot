@@ -10,4 +10,13 @@ public class AdapterUtils {
             return -1;
         }
     }
+
+    public static long stringToLong(String str) {
+        try {
+            return Long.parseLong(str);
+        }
+        catch(Exception e) {
+            return -1L;
+        }
+    }
 }

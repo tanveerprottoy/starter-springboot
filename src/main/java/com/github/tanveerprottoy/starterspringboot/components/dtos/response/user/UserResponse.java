@@ -9,7 +9,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor(force = true)
-public class UsersResponse<T> extends BaseResponse<T> {
+public class UserResponse<T> extends BaseResponse<T> {
     private int limit;
     private int page;
 }
