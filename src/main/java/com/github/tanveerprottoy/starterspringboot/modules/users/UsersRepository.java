@@ -1,17 +1,10 @@
 package com.github.tanveerprottoy.starterspringboot.modules.users;
 
-import com.github.tanveerprottoy.starterspringboot.components.dtos.response.user.UsersResponse;
 import com.github.tanveerprottoy.starterspringboot.modules.users.entities.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-import org.springframework.stereotype.Service;
+@Repository
+public interface UsersRepository extends JpaRepository<User, Long> {
 
-@Service
-public class UsersRepository {
-    
-    public UsersResponse<User> readAll(
-        String limit,
-        String page
-    ) {
-        return null;
-    }
 }
