@@ -1,6 +1,6 @@
 package com.github.tanveerprottoy.starterspringboot.modules.contents;
 
-import com.github.tanveerprottoy.starterspringboot.modules.contents.dtos.ContentDto;
+import com.github.tanveerprottoy.starterspringboot.modules.contents.dto.ContentDto;
 import com.github.tanveerprottoy.starterspringboot.modules.contents.entities.Content;
 import com.github.tanveerprottoy.starterspringboot.utils.Constants;
 import com.github.tanveerprottoy.starterspringboot.utils.ErrorUtils;

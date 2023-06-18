@@ -1,6 +1,6 @@
 package com.github.tanveerprottoy.starterspringboot.modules.users;
 
-import com.github.tanveerprottoy.starterspringboot.modules.users.dtos.UserDto;
+import com.github.tanveerprottoy.starterspringboot.modules.users.dto.UserDto;
 import com.github.tanveerprottoy.starterspringboot.modules.users.entities.User;
 import com.github.tanveerprottoy.starterspringboot.utils.AdapterUtils;
 import org.springframework.data.domain.Page;

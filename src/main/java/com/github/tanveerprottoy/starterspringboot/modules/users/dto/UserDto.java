@@ -1,4 +1,4 @@
-package com.github.tanveerprottoy.starterspringboot.modules.users.dtos;
+package com.github.tanveerprottoy.starterspringboot.modules.users.dto;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

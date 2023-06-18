@@ -1,4 +1,4 @@
-package com.github.tanveerprottoy.starterspringboot.components.dtos.response;
+package com.github.tanveerprottoy.starterspringboot.components.response;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
