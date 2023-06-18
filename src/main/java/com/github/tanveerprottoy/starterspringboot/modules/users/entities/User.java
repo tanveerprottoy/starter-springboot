@@ -1,6 +1,9 @@
 package com.github.tanveerprottoy.starterspringboot.modules.users.entities;
 
+import com.github.tanveerprottoy.starterspringboot.modules.contents.entities.Content;
 import jakarta.persistence.*;
+
+import java.util.List;
 
 @Entity
 @Table(name = "users")
@@ -11,6 +14,10 @@ public class User {
     private Long id;
     private String firstName;
     private String lastName;
+
+    // bidirectional relation
+    @OneToMany(mappedBy = "users")
+    private List<Content> contents;
 
     public User() {
     }

@@ -1,5 +1,6 @@
 package com.github.tanveerprottoy.starterspringboot.modules.contents.entities;
 
+import com.github.tanveerprottoy.starterspringboot.modules.users.entities.User;
 import jakarta.persistence.*;
 
 @Entity
@@ -11,6 +12,10 @@ public class Content {
     private Long id;
     private String title;
     private String detail;
+
+    @ManyToOne
+    @JoinColumn(name = "user_id", referencedColumnName = "id")
+    private User user;
 
     public Content() {
     }
